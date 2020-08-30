@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<trains>
+    <train id="1">
+        <from>Kyiv</from>
+        <to>Donetsk</to>
+        <date>19.12.2020</date>
+        <departure>15:00</departure>
+    </train>
+    <train id="2">
+        <from>Lviv</from>
+        <to>Donetsk</to>
+        <date>19.12.2020</date>
+        <departure>19:00</departure>
+    </train>
+    <train id="3">
+        <from>Poltava</from>
+        <to>Kyiv</to>
+        <date>19.12.2020</date>
+        <departure>09:05</departure>
+    </train>
+    <train id="4">
+        <from>Poltava</from>
+        <to>Kharkiv</to>
+        <date>19.12.2020</date>
+        <departure>06:05</departure>
+    </train>
+    <train id="5">
+        <from>Poltava</from>
+        <to>Odesa</to>
+        <date>19.12.2020</date>
+        <departure>16:05</departure>
+    </train>
+    <train id="6">
+        <from>Odesa</from>
+        <to>Poltava</to>
+        <date>19.12.2020</date>
+        <departure>18:05</departure>
+    </train>
+    <train id="7">
+        <from>Kherson</from>
+        <to>Khust</to>
+        <date>19.12.2020</date>
+        <departure>20:05</departure>
+    </train>
+    <train id="8">
+        <from>Jytomyr</from>
+        <to>Kobeliaky</to>
+        <date>19.12.2020</date>
+        <departure>21:05</departure>
+    </train>
+    <train id="none">
+        <from>Khorol</from>
+        <to>Lubny</to>
+        <date>12.12.2020</date>
+        <departure>15:46</departure>
+    </train>
+    <train id="none">
+        <from>Kharkiv</from>
+        <to>Krakiv</to>
+        <date>15.06.2021</date>
+        <departure>08:59</departure>
+    </train>
+    <train id="none">
+        <from>Melitopol</from>
+        <to>Ujhorod</to>
+        <date>25.10.2020</date>
+        <departure>18:59</departure>
+    </train>
+</trains>
