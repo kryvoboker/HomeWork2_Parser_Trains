@@ -35,9 +35,11 @@ public class Main {
 
                     int timeFrom = new String("15:00").hashCode();
                     int timeTo = new String("19:00").hashCode();
+                    int dateToday = new String("19.12.2020").hashCode();
+                    int date = element.getElementsByTagName("date").item(0).getChildNodes().item(0).getNodeValue().hashCode();
                     int timeTrain = element.getElementsByTagName("departure").item(0).getChildNodes().item(0).getNodeValue().hashCode();
 
-                    if (timeTrain >= timeFrom && timeTrain <= timeTo) {
+                    if (timeTrain >= timeFrom && timeTrain <= timeTo && date == dateToday) {
                         System.out.println("Trains from 15:00 to 19:00:");
 
                         System.out.println("From: " + element.getElementsByTagName("from").item(0)

@@ -66,4 +66,10 @@
         <date>25.10.2020</date>
         <departure>18:59</departure>
     </train>
+    <train id="none">
+        <from>Kyiv</from>
+        <to>Poltava</to>
+        <date>19.12.2020</date>
+        <departure>17:40</departure>
+    </train>
 </trains>
